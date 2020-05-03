@@ -1,10 +1,10 @@
-Inside the new container OS launched from docker hub  image we can't run the ifconfig command file.
-Since it do not have net-tools software installed.
-Inside the container:
+Inside the new container we can't run the ifconfig command because the package in which ifconfig command reside is not installed . The package name is net-tools.
+Go inside the container:
 # cd /etc/yum.repos.d/
+check the repos
 # ls
-check the repo file
-# cd
+Go to directory from where you come
+# cd -
 Install net-tools software
 # yum install net-tools 
 Now the ifconfig command works

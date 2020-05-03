@@ -1,4 +1,4 @@
-Download ubuntu image OS from docker hub
+Download ubuntu OS image OS hub.docker.com registry
 # docker pull ubuntu:14.04
 Launch a  new container OS using centos:latest version from official public docker hub registry
 image download 

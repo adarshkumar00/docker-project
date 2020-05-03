@@ -1,7 +1,7 @@
 How to build a webserver in docker file:
 Step 1:  First Create a directory
-# mkdir/test
-# cd/test
+# mkdir /test
+# cd /test
 Step 2: Create a file name "Dockerfile"
 # touch /test/Dockerfile
 Step 3: Design a sample html webpage eg : "index.html"
